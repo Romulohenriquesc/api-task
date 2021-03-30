@@ -1,11 +1,9 @@
-// Update with your config settings.
-
 module.exports = {
   client: 'postgresql',
   connection: {
     database: 'tasks',
-    user: 'postegres',
-    password: '123456'
+    user: 'postgres',
+    password: 'ufc@2021'
   },
   pool: {
     min: 2,
@@ -14,4 +12,4 @@ module.exports = {
   migrations: {
     tableName: 'knex_migrations'
   }
-};
+}
